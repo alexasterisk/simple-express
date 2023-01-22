@@ -13,5 +13,12 @@
         "callsite": "^1.0.0",
         "cron": "^2.2.0",
         "express": "^4.18.2"
-    }
+    },
+    "keywords": [
+        "express",
+        "simple",
+        "framework",
+        "web",
+        "server"
+    ]
 }
