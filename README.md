@@ -1,4 +1,4 @@
-# Simple Express
+# Basic Express Framework
 
 ---
 
@@ -7,13 +7,13 @@ Shifts the work of setting up an Express server to an easy to use class. Allowin
 ## Installation
 
 ```bash
-npm install simple-express
+npm install basic-express-framework
 ```
 
 ## Example Usage
 
 ```js
-import { Server } from "simple-express"
+import { Server } from "basic-express-framework"
 const server = new Server() // creates a new http server
 
 server.get("/", (req, res) => {
@@ -66,7 +66,7 @@ server.start()
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-[Repository](https://github.com/alexasterisk/simple-express)
+[Repository](https://github.com/alexasterisk/basic-express-framework)
 
 ## Contributors
 
