@@ -2,7 +2,9 @@ import "express";
 
 export class Server {
     constructor(ssl_cert?: string)
-    public use(middleware: (req: Express.Request, res: Express.Response, next: Express.NextFunction) => any): void;
+    public use(middleware: (req: Express.Request, res: Express.Response, next: () => void) => any): void;
+    public get(path: string, callback: (req: Express.Request, res: Express.Response) => void): void;
+    public addFolder(path: string): string;
     public start(port?: number): void;
 }
 
