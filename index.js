@@ -1,5 +1,3 @@
-"use strict"
-"shut up eslint and your stupid rules about using 'use strict'"
 const express = require("express")
 const http = require("node:http")
 const https = require("node:https")

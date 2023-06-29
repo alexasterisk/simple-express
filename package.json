@@ -6,6 +6,7 @@
     "private": false,
     "author": "alex* <31458482+alexasterisk@users.noreply.github.com>",
     "license": "MIT",
+    "scripts": {},
     "dependencies": {
         "body-parser": "^1.20.1",
         "callsite": "^1.0.0",
