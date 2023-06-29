@@ -1,13 +1,11 @@
 {
-    "name": "basic-express-framework",
+    "name": "@made-simple/express",
     "version": "1.0.1",
     "main": "./index.js",
     "types": "./index.d.ts",
+    "private": false,
     "author": "alex* <31458482+alexasterisk@users.noreply.github.com>",
     "license": "MIT",
-    "engines": {
-        "node": ">=16.9.0"
-    },
     "dependencies": {
         "body-parser": "^1.20.1",
         "callsite": "^1.0.0",
