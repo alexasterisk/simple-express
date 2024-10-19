@@ -11,7 +11,7 @@
         "body-parser": "^1.20.1",
         "callsite": "^1.0.0",
         "cron": "^2.2.0",
-        "express": "^4.19.2"
+        "express": "^4.21.1"
     },
     "keywords": [
         "express",
